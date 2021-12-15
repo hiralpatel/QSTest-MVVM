@@ -1,0 +1,120 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.qstest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:5:5-67
+11-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:20.0.2] /home/hpandro/.gradle/caches/transforms-3/853ba6695f6f8057a295643236948cdb/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:20.0.2] /home/hpandro/.gradle/caches/transforms-3/853ba6695f6f8057a295643236948cdb/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:25:22-76
+16
+17    <application
+17-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:7:5-25:19
+18        android:name="com.qstest.app.QSApp"
+18-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:8:9-34
+19        android:allowBackup="true"
+19-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:9:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.6.0] /home/hpandro/.gradle/caches/transforms-3/80787f40600162477d25c9abc2b09ad1/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:10:9-43
+23        android:label="@string/app_name"
+23-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:11:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:12:9-54
+25        android:supportsRtl="true"
+25-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:13:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.QSTest"
+27-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:14:9-44
+28        android:usesCleartextTraffic="true" >
+28-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:15:9-44
+29        <activity
+29-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:16:9-24:20
+30            android:name="com.qstest.view.MainActivity"
+30-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:17:13-46
+31            android:exported="true" >
+31-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:18:13-36
+32            <intent-filter>
+32-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:19:13-23:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:20:17-69
+33-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:20:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:22:17-77
+35-->/media/hpandro/Work/OctedSquad/Demo/QSTest-MVVM/app/src/main/AndroidManifest.xml:22:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <service
+39-->[com.google.firebase:firebase-database:20.0.2] /home/hpandro/.gradle/caches/transforms-3/853ba6695f6f8057a295643236948cdb/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:29:9-35:19
+40            android:name="com.google.firebase.components.ComponentDiscoveryService"
+40-->[com.google.firebase:firebase-database:20.0.2] /home/hpandro/.gradle/caches/transforms-3/853ba6695f6f8057a295643236948cdb/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:30:13-84
+41            android:directBootAware="true"
+41-->[com.google.firebase:firebase-common:20.0.0] /home/hpandro/.gradle/caches/transforms-3/fda62ea292ca95dbe070662929235f36/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+42            android:exported="false" >
+42-->[com.google.firebase:firebase-database:20.0.2] /home/hpandro/.gradle/caches/transforms-3/853ba6695f6f8057a295643236948cdb/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:31:13-37
+43            <meta-data
+43-->[com.google.firebase:firebase-database:20.0.2] /home/hpandro/.gradle/caches/transforms-3/853ba6695f6f8057a295643236948cdb/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:32:13-34:85
+44                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+44-->[com.google.firebase:firebase-database:20.0.2] /home/hpandro/.gradle/caches/transforms-3/853ba6695f6f8057a295643236948cdb/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:33:17-109
+45                android:value="com.google.firebase.components.ComponentRegistrar" />
+45-->[com.google.firebase:firebase-database:20.0.2] /home/hpandro/.gradle/caches/transforms-3/853ba6695f6f8057a295643236948cdb/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:34:17-82
+46        </service>
+47
+48        <provider
+48-->[com.google.firebase:firebase-common:20.0.0] /home/hpandro/.gradle/caches/transforms-3/fda62ea292ca95dbe070662929235f36/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+49            android:name="com.google.firebase.provider.FirebaseInitProvider"
+49-->[com.google.firebase:firebase-common:20.0.0] /home/hpandro/.gradle/caches/transforms-3/fda62ea292ca95dbe070662929235f36/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+50            android:authorities="com.qstest.firebaseinitprovider"
+50-->[com.google.firebase:firebase-common:20.0.0] /home/hpandro/.gradle/caches/transforms-3/fda62ea292ca95dbe070662929235f36/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+51            android:directBootAware="true"
+51-->[com.google.firebase:firebase-common:20.0.0] /home/hpandro/.gradle/caches/transforms-3/fda62ea292ca95dbe070662929235f36/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+52            android:exported="false"
+52-->[com.google.firebase:firebase-common:20.0.0] /home/hpandro/.gradle/caches/transforms-3/fda62ea292ca95dbe070662929235f36/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+53            android:initOrder="100" />
+53-->[com.google.firebase:firebase-common:20.0.0] /home/hpandro/.gradle/caches/transforms-3/fda62ea292ca95dbe070662929235f36/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+54
+55        <activity
+55-->[com.google.android.gms:play-services-base:17.1.0] /home/hpandro/.gradle/caches/transforms-3/04734857b5ed174dc0953427412d8a79/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+56            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+56-->[com.google.android.gms:play-services-base:17.1.0] /home/hpandro/.gradle/caches/transforms-3/04734857b5ed174dc0953427412d8a79/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+57            android:exported="false"
+57-->[com.google.android.gms:play-services-base:17.1.0] /home/hpandro/.gradle/caches/transforms-3/04734857b5ed174dc0953427412d8a79/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+58-->[com.google.android.gms:play-services-base:17.1.0] /home/hpandro/.gradle/caches/transforms-3/04734857b5ed174dc0953427412d8a79/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+59
+60        <meta-data
+60-->[com.google.android.gms:play-services-basement:17.0.0] /home/hpandro/.gradle/caches/transforms-3/cc993a9819e0fea246e6e508f312d442/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+61            android:name="com.google.android.gms.version"
+61-->[com.google.android.gms:play-services-basement:17.0.0] /home/hpandro/.gradle/caches/transforms-3/cc993a9819e0fea246e6e508f312d442/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+62            android:value="@integer/google_play_services_version" />
+62-->[com.google.android.gms:play-services-basement:17.0.0] /home/hpandro/.gradle/caches/transforms-3/cc993a9819e0fea246e6e508f312d442/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+63
+64        <provider
+64-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/hpandro/.gradle/caches/transforms-3/6e1f4e88c262933c35e6b6fdc08c4ec6/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+65            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/hpandro/.gradle/caches/transforms-3/6e1f4e88c262933c35e6b6fdc08c4ec6/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+66            android:authorities="com.qstest.lifecycle-process"
+66-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/hpandro/.gradle/caches/transforms-3/6e1f4e88c262933c35e6b6fdc08c4ec6/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+67            android:exported="false"
+67-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/hpandro/.gradle/caches/transforms-3/6e1f4e88c262933c35e6b6fdc08c4ec6/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+68            android:multiprocess="true" />
+68-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/hpandro/.gradle/caches/transforms-3/6e1f4e88c262933c35e6b6fdc08c4ec6/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+69    </application>
+70
+71</manifest>

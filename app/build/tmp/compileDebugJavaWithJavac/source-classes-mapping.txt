@@ -1,0 +1,24 @@
+com/qstest/databinding/RowProductItemBinding.java
+ com.qstest.databinding.RowProductItemBinding
+com/qstest/databinding/ActivityMainBinding.java
+ com.qstest.databinding.ActivityMainBinding
+com/qstest/DataBinderMapperImpl.java
+ com.qstest.DataBinderMapperImpl
+ com.qstest.DataBinderMapperImpl$InnerBrLookup
+ com.qstest.DataBinderMapperImpl$InnerLayoutIdLookup
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/qstest/BR.java
+ com.qstest.BR
+com/qstest/databinding/RowProductItemBindingImpl.java
+ com.qstest.databinding.RowProductItemBindingImpl
+com/qstest/DataBindingTriggerClass.java
+ com.qstest.DataBindingTriggerClass
+com/qstest/BuildConfig.java
+ com.qstest.BuildConfig
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/qstest/databinding/ActivityMainBindingImpl.java
+ com.qstest.databinding.ActivityMainBindingImpl
